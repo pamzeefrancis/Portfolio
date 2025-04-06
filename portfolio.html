@@ -1,63 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamela Francis Portfolio</title>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
-    
-    <main class="main">
-        <header class="header">
-            <div class="headleft">
-                <p><span>My Port</span> <img class="logo" src="./images/Logotype.png"> <img class="logo" src="./images/portfolio icon.png"></p>
-            </div>
-            <div class="headright">
-                <nav class="navbar" >
-                    
-                    
-                            <p><a href="#home">Home</a></p>
-                            <p><a href="#about"> About </a></p>
-                            <p><button class="portfolio" onclick="window.location=portfolio">Portfolio</button></p>
-                            <p><a href="#contact"> Contact </a></p>
-                            <p><a href="#blog"> Blog </a></p>
-                    <div class="curriculum">
-                            <p class="vertical"></p>
-                        <p>
-                             <a href="#curriculum vitae">Curriculum Vitae</a>
-                        </p>
-                    </div>
-    
-                </nav>
-                        </div>
-            </div>
-        </header>
+    <header class="header">
+        <div class="headleft">
+            <p><span>My Port</span> <img class="logo" src="./images/Logotype.png" alt="Portfolio logo"> <img class="logo" src="./images/portfolio icon.png" alt="Portfolio icon"></p>
+        </div>
+        <div class="headright">
+            <nav class="navbar">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><button class="portfolio" onclick="window.location='portfolio.html'">Portfolio</button></p>
+                <p><a href="contact.html">Contact</a></p>
+                <p><a href="#blog">Blog</a></p>
+                <div class="curriculum">
+                    <p class="vertical"></p>
+                    <p><a href="#curriculum vitae">Curriculum Vitae</a></p>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <div id="home">
-            <hr width="30%" size="5" color="#acaaaa">
-            <div class="introcon">
-                <div class="introspread">
-                    <div class="gettingstarted">
-                        <article class="covercon">
-                            <h2 class="cover">Cover</h2>
-                            <hr>
-                            <span class="writeup">
-                                <h4></h4>
-                                <h6></h6>
-                                <h5></h5>
-                                <h6></h6>
-                                <h5></h5>
-                                <h6></h6>
-                            </span>
-                        </article>
+    <div class="container">
+        <div class="layout-wrapper">
+            <!-- Left Content Column -->
+            <div class="content-column">
+                <h1 class="project-header">Project description</h1>
+                
+                <div class="project-section">
+                    <div class="project-title">PLATFORM</div>
+                    <p class="project-content">
+                        Three problems have been put into the Requirements.
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <div class="project-title">WORK-DONE</div>
+                    <p class="project-content">
+                        Tension is not yet submitted by World Design.
+                        <span class="status-note">Requirements/other images, usually a final draft possible (that takes an impact)</span>
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <div class="project-title">TIME FRAME</div>
+                    <p class="project-content">
+                        Tension is not yet transmitted by a transfer.
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <div class="project-title">OVERVIEW</div>
+                    <p class="project-content">
+                        It is a set of time experience and performance goals, which are designed for the purpose of the project. The design of these two opportunities includes the key goal that is the technical plan to help.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Image Column -->
+            <div class="image-column">
+                <div class="image-wrapper">
+                    <div class="image-placeholder">
+                        <img src="./images/Silver Gradient.jpg" alt="Project visual reference" class="reference-image">
+                        <div class="image-caption">Representative project visual</div>
                     </div>
-                    <div class="intro"><img src="./images/Intro topright half frame.png"></div>
                 </div>
             </div>
         </div>
-</main>
 
-    
+        <div class="requirements-footer">
+            Lorem ipsum dolor sit amet consectetur ad (that takes an impact)
+        </div>
+    </div>
 </body>
 </html>

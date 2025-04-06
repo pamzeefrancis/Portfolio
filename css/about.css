@@ -1,0 +1,266 @@
+.hero-section {
+    width: 100%;
+    background-color: #002452;
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.text-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.greeting {
+    text-transform: uppercase;
+    color: #002452;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #002452;
+    margin: 0.5rem 0;
+}
+
+.title {
+    font-size: 1.875rem;
+    color: #002452;
+    margin: 0.5rem 0;
+    font-weight: bolder;
+}
+
+.description {
+    color: #002452;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.hire-btn {
+    display: inline-block;
+    background-color: #002452;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(229,228,226);
+}
+
+.hire-btn:hover {
+    background-color: #001a3a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px 0 rgba(229,228,226);
+}
+
+.person-img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.about-section {
+  background-color: white;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.about-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.about-title {
+  position: relative;
+  font-weight: bold;
+}
+
+.about-bg-text {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.05);
+}
+
+.about-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  margin: 0;
+}
+
+.about-content {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.about-buttons {
+  margin-top: 1.5rem;
+}
+
+.primary-btn {
+  background-color: #002452;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.outline-btn {
+  border: 2px solid #002452;
+  color: #002452;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover,
+.outline-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section */
+.services-section {
+  background-color: #f8fafc;
+  color: #1e293b;
+  padding: 4rem 0;
+}
+
+.services-container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border-bottom: 2px solid #002452;
+  padding-bottom: 0.5rem;
+}
+
+.services-description {
+  color: #64748b;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.services-box-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.service-box {
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.service-box-1 {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.service-box-2 {
+  background-color: rgba(132, 204, 22, 0.1);
+}
+
+.service-box-3 {
+  background-color: rgba(217, 70, 239, 0.1);
+}
+
+.service-box-4 {
+  background-color: rgba(249, 115, 22, 0.1);
+}
+
+.service-content {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #002452;
+}
+
+.service-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #002452;
+}
+
+.service-description {
+  line-height: 1.5;
+  color: #64748b;
+}
+
+@media (min-width: 640px) {
+  .hero-content {
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+  }
+  
+  .text-content {
+    text-align: left;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

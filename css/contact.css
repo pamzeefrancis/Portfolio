@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* div{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+} */
+
+p{
+    font-weight: bolder;
+}
+
+.maincon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.contactbg{
+    width:90%;
+    height: 90%;
+    padding-top: 100px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.contactinfo{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 5px solid #002452;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.linkedin{
+    width: 15%;
+    height: 15%;
+    background-color: #002452;
+    border-radius: 7px;
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+}
